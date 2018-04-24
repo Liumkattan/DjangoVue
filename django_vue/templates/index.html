@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Django + Vue</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/http-vue-loader@1.3.4/src/httpVueLoader.min.js"></script>
+    </head>
+    <body>
+        <div id="app">
+        {% block bodyblock %}
+        {% endblock %}
+        </div>
+        <script>
+new Vue({
+  delimiters: ['[[', ']]'],
+  el: '#app',
+  data: {
+    title: 'Welcome to My Journal'
+  }
+})
+</script>
+    </body>
+</html>
