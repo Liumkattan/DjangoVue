@@ -14,11 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from vue_test import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index.as_view()),
-    #path('vue/', views.vue.as_view()),
+    # path('', views.index.as_view()),
+    path('vue/', include('vue_test.urls', namespace='vue_test')),
 ]
