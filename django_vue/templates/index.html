@@ -7,6 +7,8 @@
     </head>
     <body>
         <div id="app">
+        <h1>Hello from Django!</h1>
+        <h1> [[ text ]] </h1>
         {% block bodyblock %}
         {% endblock %}
         </div>
@@ -15,7 +17,7 @@ new Vue({
   delimiters: ['[[', ']]'],
   el: '#app',
   data: {
-    title: 'Welcome to My Journal'
+    text: 'Welcome to Vue!!'
   }
 })
 </script>
