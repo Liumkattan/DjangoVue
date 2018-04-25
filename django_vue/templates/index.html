@@ -12,14 +12,13 @@
         <h1> [[ text ]] </h1>
         {% block bodyblock %}
         {% endblock %}
-        <hello></hello>
         </div>
         <script>
 new Vue({
   delimiters: ['[[', ']]'],
   el: '#app',
   components: {
-          'hello': httpVueLoader("{% static 'hello.vue' %}")
+          'hello': httpVueLoader("{% static 'components/hello.vue' %}")
     },
   data: {
     text: 'Welcome to Vue!!'
