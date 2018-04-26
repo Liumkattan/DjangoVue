@@ -26,7 +26,7 @@ SECRET_KEY = 'vx&ju-o4dt+z9wcbbhe&@(3=4+^&rd*g4i6fc0enbj789gf_lq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['xj600khu.apps.lair.io']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
