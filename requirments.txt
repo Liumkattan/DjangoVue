@@ -1,1 +1,4 @@
 django==2.0.4
+
+# VueJs 2.5.17
+# http-vue-loader 1.2.4
