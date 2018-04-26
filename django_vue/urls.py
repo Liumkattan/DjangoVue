@@ -19,7 +19,7 @@ from vue_test import views
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    # path('', views.index.as_view()),
+    # path('admin/', admin.site.urls),
+    path('', views.welcome.as_view()),
     path('vue/', include('vue_test.urls', namespace='vue_test')),
 ]
