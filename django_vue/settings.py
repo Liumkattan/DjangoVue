@@ -26,7 +26,7 @@ SECRET_KEY = 'vx&ju-o4dt+z9wcbbhe&@(3=4+^&rd*g4i6fc0enbj789gf_lq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['xj600khu.apps.lair.io']
 
 
 # Application definition
@@ -118,7 +118,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
-STATIC_DIR = os.path.join(TEMPLATES_DIR, 'static')
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [

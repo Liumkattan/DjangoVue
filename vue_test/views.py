@@ -6,4 +6,5 @@ class index(TemplateView):
     template_name = 'index.html'
     
     
-    
+class other(TemplateView):
+    template_name = 'other.html'
