@@ -1,7 +1,7 @@
 # Django + VueJs
 This is a test project, it's goal is to find how far Djang and VueJs can be combined.
 
-## Statuse
+## Status
 Succeeded by Linking **Vue.js** file in **django** HTML template.
 
 ## Possibilities
